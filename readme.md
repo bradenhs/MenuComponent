@@ -4,7 +4,7 @@ Preview by viewing `out/index.html` in a web browser.
 
 ## Getting Started
 
-Run these commands to get up an running in development mode:
+Run these commands to get up and running in development mode:
 
 `git clone https://github.com/bradenhs/MenuComponent.git`
 
