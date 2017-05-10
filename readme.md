@@ -1,8 +1,8 @@
-# MenuComponent
+## MenuComponent
 
 Preview by viewing `out/index.html` in a web browser or running `npm start` or `yarn start`
 
-# Getting Started
+## Getting Started
 
 Run these commands to get up an running in development mode:
 
