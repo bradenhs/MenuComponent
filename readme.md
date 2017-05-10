@@ -6,7 +6,7 @@ Preview by viewing `out/index.html` in a web browser or running `npm start` or `
 
 Run these commands to get up an running in development mode:
 
-`git clone https://www.github.com/bradenhs/MenuComponent`
+`git clone https://github.com/bradenhs/MenuComponent.git`
 
 `cd MenuComponent`
 
