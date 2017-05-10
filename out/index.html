@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <title>ArborMetrix Coding Challenge</title>
+</head>
+<body>
+  <div id='example'></div>
+  <script src='bundle.js'></script>
+  <script>
+    const example = document.createElement('div')
+
+    document.body.appendChild(example)
+
+    const myMenuComponent = MenuComponent.Create(example)
+
+    myMenuComponent.addTopLevelItem('Normal', () => alert('Example Action'));
+    myMenuComponent.addTopLevelItem('Drop-down');
+    myMenuComponent.addItem('Drop-down', 'Surprise', () => {
+      const video = document.createElement('video')
+      video.width = '500'
+      video.autoplay = true
+      video.src = 'vid.mp4'
+      document.body.appendChild(video)
+    })
+  </script>
+</body>
+</html>
