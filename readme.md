@@ -1,6 +1,6 @@
 ## MenuComponent
 
-Preview by viewing `out/index.html` in a web browser or running `npm start` or `yarn start`
+Preview by viewing `out/index.html` in a web browser.
 
 ## Getting Started
 
